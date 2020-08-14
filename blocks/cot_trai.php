@@ -9,7 +9,7 @@
     <div class="clear"></div>
     <div class="cat-content">
       <?php
-    $tinxemnhieu = TinXemNhieuNhat();
+    $tinxemnhieu = getMoreWarchNews();
     while( $row_tinxemnhieu = mysql_fetch_array($tinxemnhieu)) {
       ?>
       <div class="col1">

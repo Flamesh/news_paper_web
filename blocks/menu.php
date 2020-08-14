@@ -1,8 +1,41 @@
 <ul class="width_common" id="menu_web">
-          <li class="active"><a href="./"><img class="logo_icon_home" alt="" src="images/img_logo_home.gif"></a></li>
-          
-          <li>
-              <a href="./" class="mnu_thoisu">Thời sự</a>
-          </li>
+          <a class="dropbtn">TRANG CHỦ</a>
+         <li>
+               <div class="dropdown">
+                    <button class="dropbtn">GIỚI THIỆU</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                 </div>
+                 <div class="dropdown">
+                    <button class="dropbtn">TIN TỨC</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                 </div>
+                 <div class="dropdown">
+                    <button class="dropbtn">VĂN BẢN HÀNH CHÍNH</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                 </div>
+                 <div class="dropdown">
+                    <button class="dropbtn">THỦ TỤC HÀNH CHÍNH</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                 </div>
+         </li>
+           
+         
+        
            
 </ul>

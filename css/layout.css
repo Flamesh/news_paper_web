@@ -15,18 +15,29 @@ ul{ list-style:none}
 .tlq a:hover{ color:#900;}
 .xemthem{ color:#666; font-size:11px;}
 .xemthem:hover{ color:#069;}
-.hit{ background:url(../images/icon_title.png) -22px 0 no-repeat; width:2px; height:10px; float:right; color:#900; margin:0 8px 0 0; padding:0 0 0 18px; font-weight:normal; font-size:11px}
+.hit{ 
+	background: url(../images/icon_title.png) -44px 0 no-repeat;
+    width: 25px;
+    height: 10px;
+    float: right;
+    color: #900;
+    margin: 8px 8px 0 0;
+    padding: 0 0 0 18px;
+    font-weight: normal;
+	font-size: 11px;
+}
+
 
 
 
 #wrap-vp{ width:1000px; margin:15px auto}
-#header-vp{ height:70px;}
-	#logo{ width:300px; float:left; margin-top:5px}
+#header-vp{ height:100px;}
+	#logo{ float:left; margin-top:5px}
 	
-#menu-vp{ border-bottom:3px solid #CCC; padding:0 0 3px 0px}
+#menu-vp{ border-bottom:3px solid #CCC; padding:0 0 3px 0px; height: 45px;}
 	#menu-vp ul{ }
 	#menu-vp ul li{ display:inline;border-right: solid 1px #CCCCCC;}
-	#menu-vp ul li a{ color:#333; font-weight:bold; font-size:12px; padding:0 3px 0 3px }
+
 	#menu-vp ul li:last-child{ border-right:none}	
 	#menu-vp ul li a:hover{ color:#900}
 	
@@ -114,7 +125,48 @@ ul{ list-style:none}
 	#footer .bot3{ width:47%; float:right; text-align:right}
 	
 	
-	
-	
-	
-	
+
+.dropbtn {
+	background-color: #227DD9;
+	color: white;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+  }
+
+  .logo_icon_home{
+	  width: 20px;
+	  padding: 10px 20px 0 20px;
+  }

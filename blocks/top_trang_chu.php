@@ -1,6 +1,6 @@
 <div id="slide-left">
   <?php
-  $tinmoinhat = TinMoiNhat_MotTin();
+  $tinmoinhat = getOneNews_inTop();
   $row_tinmoinhat = mysql_fetch_array($tinmoinhat);
   ?>
   <div id="slideleft-main">
@@ -20,7 +20,7 @@
     <div class="content_scoller width_common">
       <ul>
         <?php
-          $bontin = TinMoiNhat_BonTin();
+          $bontin = get5news_inTop();
           while ($row_bontin = mysql_fetch_array($bontin)) {
         ?>
         <li>

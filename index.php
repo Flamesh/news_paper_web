@@ -6,20 +6,21 @@ if( isset( $_GET["p"]))
 else 
     $p = "";
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html PUBLIC "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html >
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Lap Trinh PHP - KhoaPhamTraining</title>
+<title>Công an thành phố Hòa Bình</title>
 <link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="icon" href="images/logo-cong-an.ico" type="image/ico">
 </head>
 
 <body>
 <div id="wrap-vp">
 	<div id="header-vp">
-    	<div id="logo"><img src="images/logo.gif" /></div>
+    	<div id="logo" style="width: auto;"><img src="images/cover.png" /></div>
     </div>
-    
+    <div class="clear"></div>
     <div id="menu-vp">
     	<?php require "blocks/menu.php" ?>
     </div>
@@ -81,18 +82,12 @@ else
     <div id="footer">
     	<!--blocks/footer.php-->
         <?php require "blocks/footer.php" ?>
-        <div class="ft-bot">
-            <div class="bot1"><img src="images/logo.gif" /></div>
-            <div class="bot2">
-                     <p>© <span>Copyright 1997 VnExpress.net,</span>  All rights reserved</p>
-                     <p>® VnExpress giữ bản quyền nội dung trên website này.</p>
-            </div>
-            <div class="bot3">
-                
-                     <p><a href="http://fptad.net/qc/V/vnexpress/2014/07/">VnExpress tuyển dụng</a>   <a href="http://polyad.net/Polyad/Lien-he.htm">Liên hệ quảng cáo</a> / <a href="/contactus">Liên hệ Tòa soạn</a></p>
-                     <p><a href="http://vnexpress.net/contact.htm" target="_blank" style="color: #686E7A;font: 11px arial;padding: 0 4px;text-decoration: none;">Thông tin Tòa soạn: </a><span>0123.888.0123</span> (HN) - <span>0129.233.3555</span> (TP HCM)</p>
-                  
-            </div>
+        <div class="ft-bot" style="text-align: center;">
+            
+                     <p>Cổng thông tin điện tử công an thành phố Hòa Binh: </a><span>0123.888.0123</span>  - <span>0129.233.3555</span></p>
+          
+                     <p>Chịu trách nhiệm nội dung: Đ/c AAAAAAA -Trưởng Công an Thành phố</p>
+                    
         </div>
     </div>
     
