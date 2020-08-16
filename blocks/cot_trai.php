@@ -3,7 +3,7 @@
 <div class="box-cat">
   <div class="cat">
     <div class="main-cat">
-      <a href="#">Tin xem nhiều</a>
+      <a href="">Tin xem nhiều</a>
     </div>
 
     <div class="clear"></div>
