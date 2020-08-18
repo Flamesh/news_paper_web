@@ -6,7 +6,7 @@
 <div class="thongtin-content">
    <?php
    $types = getTypesMenu();
-   while ($row_type = mysql_fetch_array($types)) {
+   while ($row_type = mysqli_fetch_array($types)) {
       $idTL = $row_type["idTL"]
    ?>
       <ul class="ulBlockMenu">
@@ -18,7 +18,7 @@
          <li class="liFollow">
             <?php
             $loaditin = getChildTypes($idTL);
-            while ($row_loaitin =  mysql_fetch_array($loaditin)) {
+            while ($row_loaitin =  mysqli_fetch_array($loaditin)) {
             ?>
                <h2>
                   <a href="index.php?p=tintrongloai&idLT=<?php echo $row_loaitin["idLT"] ?>">

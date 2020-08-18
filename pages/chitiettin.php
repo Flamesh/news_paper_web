@@ -8,7 +8,7 @@ if (isset($_GET["idTin"])) {
 }
 updateNumOfSeen($idTin);
 $detail_news = getDetaltNews($idTin);
-$row_detail = mysql_fetch_array($detail_news);
+$row_detail = mysqli_fetch_array($detail_news);
 
 ?>
 
@@ -39,7 +39,7 @@ $row_detail = mysql_fetch_array($detail_news);
   <ul>
     <?php
     $same_news = getNewsSameType($idTin, $row_detail["idLT"]);
-    while ($row_same_news = mysql_fetch_array($same_news)) {
+    while ($row_same_news = mysqli_fetch_array($same_news)) {
     ?>
       <li>
 

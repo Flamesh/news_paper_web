@@ -5,7 +5,7 @@ settype($idLT, 'int');
 
 <?php
 $bc = breadCrumb($idLT);
-$row_bc = mysql_fetch_array($bc);
+$row_bc = mysqli_fetch_array($bc);
 ?>
 <div style="font-weight: bold;">
     <a href="./"> Trang chủ</a> &raquo; <?php echo $row_bc["TenTL"] ?> &raquo; <?php echo $row_bc['Ten'] ?>
@@ -19,7 +19,7 @@ if (isset($_GET['page'])) {
 } else $page = 1;
 
 $tin = getNewsByType_Paginate($idLT, $numInPage, (int)($page - 1));
-while ($rows_tin = mysql_fetch_array($tin)) {
+while ($rows_tin = mysqli_fetch_array($tin)) {
 ?>
     <div class="box-cat">
         <div class="cat1">

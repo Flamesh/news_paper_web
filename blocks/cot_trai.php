@@ -10,7 +10,7 @@
     <div class="cat-content">
       <?php
     $tinxemnhieu = getMoreWarchNews();
-    while( $row_tinxemnhieu = mysql_fetch_array($tinxemnhieu)) {
+    while( $row_tinxemnhieu = mysqli_fetch_array($tinxemnhieu)) {
       ?>
       <div class="col1">
         <div class="news">

@@ -1,6 +1,6 @@
 <?php
 $types = getTypesMenu();
-while ($row_type = mysql_fetch_array($types)) {
+while ($row_type = mysqli_fetch_array($types)) {
     $idTL = $row_type["idTL"]
 ?>
     <div class="box-cat">
@@ -11,7 +11,7 @@ while ($row_type = mysql_fetch_array($types)) {
             <div class="child-cat">
                 <?php
                 $loaditin = getChildTypes($idTL);
-                while ($row_loaitin =  mysql_fetch_array($loaditin)) {
+                while ($row_loaitin =  mysqli_fetch_array($loaditin)) {
                 ?>
 
                     <a href="index.php?p=tintrongloai&idLT=<?php echo $row_loaitin["idLT"] ?>">
@@ -24,7 +24,7 @@ while ($row_type = mysql_fetch_array($types)) {
             <div class="cat-content">
                 <?php
                 $news = getOneNewsInMain($idTL);
-                $first_news = mysql_fetch_array($news);
+                $first_news = mysqli_fetch_array($news);
                 ?>
                 <div class="col1">
                     <div class="news">
@@ -44,7 +44,7 @@ while ($row_type = mysql_fetch_array($types)) {
                 <div class="col2">
                     <?php
                     $three_news = getThreeNewsInMain($idTL);
-                    while ($news = mysql_fetch_array($three_news)) {
+                    while ($news = mysqli_fetch_array($three_news)) {
                     ?>
                         <p class="tlq">
                             <a href="index.php?p=chitiettin&idTin=<?php echo $news['idTin'] ?>">

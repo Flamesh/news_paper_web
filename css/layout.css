@@ -233,7 +233,7 @@ ul {
     border-right: solid 1px #E2E2E3;
     width: 16%;
     float: left;
-    padding: 5px;
+    padding: 5px 0px;
     min-height: 500px;
 }
 
@@ -610,4 +610,36 @@ ul {
 
 .pagination a:hover:not(.active) {
     background-color: #ddd;
+}
+
+.card-left {
+    width: 280px;
+    height: 400px;
+    border: 2px solid #ffddc3;
+    padding: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.heading-card-left {
+    position: relative;
+    background: #026bd5;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.card-heading-left-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.card-left-content {
+    font-weight: bold;
+    display: block;
+    margin: 0px 5px;
+    border-bottom: tomato solid 2px;
+    padding: 20px
 }

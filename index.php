@@ -29,7 +29,6 @@ else
             <div id="left">
                 <ul class="list_arrow_breakumb">
                     <li class="start">
-                        <a href="javascript:;">Trang nhất</a>
                         <span class="arrow_breakumb">&nbsp;</span></li>
                 </ul>
             </div>
